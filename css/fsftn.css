@@ -1,0 +1,18 @@
+html {
+    padding : 50px;
+    background-color : aqua;
+}
+body {
+    background-color : orange;
+    padding-top : 50px;
+}
+nav{
+    float : right;
+}
+.navigation ul li{
+     display: inline;
+     color : white;
+}
+.navigation ul li:after{
+     content : "|" ;
+}
