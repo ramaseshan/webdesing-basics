@@ -1,5 +1,12 @@
 # webdesing-basics
 
+How to use this :
+1. Open your terminal
+2. git clone https://github.com/ramaseshan/webdesing-basics.git
+3. cd webdesing-basics
+4. Open each html in your browser, and open the code in a text editor.
+5. Edit, read and understand the code, start modifying it and learn better
+
 Further Reading
 
 # HTML  :
