@@ -36,7 +36,80 @@
     <div class="content">
         <h1>Hello World</h1>
         <p> Welcome to FSFTN Summer Camp</p>
-        GRID SYSTEM
+           <h1>GRID SYSTEM </h1>
+           Bootstrap divides the who page in 12 columns, called grids. <br />
+           These grids are cateroized by 4 types of devices <br />
+           <ul>
+            <li> xs - Very small Devices - Older mobile phones, or very small screened mobile phones</li>
+            <li> sm  - Small Devices - Mobile/SMart phones </li>
+            <li> md - Medium Devices (ranging from tablet phones to 14/15 inch screens) </li>
+            <li> lg - Large Devices (typically screens above 15 inch) </li>
+           </ul>
+        <br />
+        So how do we initialize these grids?? <br />
+        Simple : we add the classes .col-md-* col-sm-* or col-lg-*
+
+        Example : 3 - 4-Grid Blocks of medium sizes <br />
+        <div class="col-md-4 well">This is a 4 grid block </div>
+        <div class="col-md-4 well">This is a 4 grid block </div>
+        <div class="col-md-4 well">This is a 4 grid block </div>
+
+        So what did we do here ?? we just added a "col-md-4" class to the div element. ! Its that simple.
+        <br />
+        So how is this going to help me in a mobile ready design ??
+        <br />
+        We will see a example.
+        <br />
+        <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+        <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+        <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+        <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+        <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+        <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+
+        Understood ?? Isint that awesome ??
+        Okay ! one last thing !
+        How do we wrap a set of col's in a group and another col inside another group ??
+        <br /> What ??
+        Lets look at an example, shall we ?
+        <div class="row well">
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+        </div>
+        <div class="row well">
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 well"> col-sm-12 col-md-6 col-lg-4</div>
+        </div>
+        Isint that awesome ?? Did you notice this line didnt merge with the before div ? That is called a row. col's are put into row's. (I call this grouping col's)
+        <br />
+        One last thing about grids ! Have you heard of nested for loops in programming, or basically doing a particular operation inside a basic operation ??
+        <br />
+        How do we do that with a grid ??
+        <br />
+        Here is how we do !
+        <br />
+        <div class="row well">
+            <div class="col-sm-12 col-md-6 col-lg-4 well">col-sm-12 col-md-6 col-lg-4<br /> 
+                <div class="row well"> 
+                    <div class="col-sm-12 col-md-6 col-lg-6 well">
+                        inside <br />
+                        col-sm-12 col-md-6 col-lg-6
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 well">col-sm-12 col-md-6 col-lg-4<br /> 
+                <div class="row well"> 
+                    <div class="col-sm-12 col-md-6 col-lg-6 well">
+                        inside <br />
+                        col-sm-12 col-md-6 col-lg-6
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
  </div><!-- /.container -->
 
